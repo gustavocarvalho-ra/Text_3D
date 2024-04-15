@@ -26,4 +26,12 @@ body {
 .container .text span {
   position: absolute;
   color: #fff;
+  font-size: 3.5em;
+  white-space: nowrap;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 0 10px;
+  transform-style: preserve-3d;
+  text-shadow: 0 5px 15px rgb(0, 0, 0);
+  transform: translate(-50%, -50%) rotateX(calc(var(--i) * 22.5deg)) translateZ(130px);
 }
