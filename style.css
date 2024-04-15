@@ -14,8 +14,8 @@ body {
 
 .container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
 }
 
 .container .text {
@@ -25,4 +25,5 @@ body {
 
 .container .text span {
   position: absolute;
+  color: #fff;
 }
